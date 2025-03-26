@@ -7,13 +7,15 @@ public class Newhello {
          
         System.out.println("NewHeelow World");
          System.out.println(num2+num1);
-            int x=10;
 
-             if(x>20){
-                 System.out.println("Heloo world");
+            int x=30;
+             int y=20;
+
+             if(x>y){
+                 System.out.println(x);
              }
               else{
-                 System.out.println("Not Hellow");
+                 System.out.println(y);
               }
      }
 }

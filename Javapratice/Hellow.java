@@ -10,9 +10,13 @@
            String name="Ravikumar";
 
             double num3= 2.3;
+
+            String brand = "Toyota";   
     System.out.println(num1+num2);
     System.out.println(num1+name);
     System.out.println(num3+num1);
+    
+    System.out.println("New Car is "+ brand);
 
     }
 }

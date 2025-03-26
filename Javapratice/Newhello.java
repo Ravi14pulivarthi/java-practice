@@ -10,12 +10,17 @@ public class Newhello {
 
             int x=30;
              int y=20;
+              int z=40;
 
-             if(x>y){
+             if(x>y && x>z){
                  System.out.println(x);
+            
              }
+              else if(y>x && y>z){
+                   System.out.println(y);
+              }
               else{
-                 System.out.println(y);
+                 System.out.println(z);
               }
      }
 }

@@ -1,22 +1,19 @@
 
- class Hellow {
+class Hellow {
 
-    public static void main(String a[])
-    {
-        
-         int num1 = 2;
-          int num2=4;
+    public static void main(String a[]) {
 
-           String name="Ravikumar";
+        int num1 = 2;
+        int num2 = 4;
+        String name = "Ravikumar";
+        double num3 = 2.3;
 
-            double num3= 2.3;
+        String brand = "Toyota";
+        System.out.println(num1 + num2);
+        System.out.println(num1 + name);
+        System.out.println(num3 + num1);
 
-            String brand = "Toyota";   
-    System.out.println(num1+num2);
-    System.out.println(num1+name);
-    System.out.println(num3+num1);
-    
-    System.out.println("New Car is "+ brand);
+        System.out.println("New Car is " + brand);
 
     }
 }

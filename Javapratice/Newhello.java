@@ -184,8 +184,15 @@ public class Newhello {
 
         //  int array[]={1,2,3,};
         //  System.out.println(array);
-         String names []={"ravi","kumar","ravikumar","pulivarthi"};
-         System.out.println(Arrays.toString(names));
+        //  String names []={"ravi","kumar","ravikumar","pulivarthi"};
+        //  System.out.println(Arrays.toString(names));
+
+
+        //  String  name="Ravi";
+        //  System.out.println(name);
+
+         String name=new String("Ravikumar");
+          System.out.println(name+"Hello");
  
       }
 

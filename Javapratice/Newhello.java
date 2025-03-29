@@ -1,5 +1,12 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
+ class Student{
+  int rollenum;
+  String name;
+  int marks;
+  
+ }
 public class Newhello {
 
   public static void main(String a[]) {
@@ -70,21 +77,81 @@ public class Newhello {
     // System.out.println("Not Prime");
     // }
 
-    String name = "Ravikumar";
+    // String name = "Ravikumar";
 
-    String name2 = "aeiou";
-    int count = 0;
+    // String name2 = "aeiou";
+    // int count = 0;
 
-    for (int i = 0; i < name.length(); i++) {
-      for (int j = 0; j < name2.length(); j++) {
-        if (name.charAt(i) == name2.charAt(j)) {
-          count++;
-        }
+    // for (int i = 0; i < name.length(); i++) {
+    // for (int j = 0; j < name2.length(); j++) {
+    // if (name.charAt(i) == name2.charAt(j)) {
+    // count++;
+    // }
 
-      }
-    }
-    System.out.println("Voles are inthis" + count);
-    System.out.println("Consonenents are in this is" + (name.length() - count));
+    // }
+    // }
+    // System.out.println("Voles are inthis" + count);
+    // System.out.println("Consonenents are in this is" + (name.length() - count));
+
+    // int nums[]={1,2,3,4,5,6};
+
+    // int largestnum=nums[0];
+    // int smallestnum=nums[0];
+    // for( int i=0;i<nums.length;i++){
+
+    // if(nums[i] <= largestnum){
+    // largestnum=nums[i];
+    // }
+    // if(nums[i] >= smallestnum){
+    // smallestnum=nums[i];
+    // }
+
+    // }
+    // System.out.println(largestnum);
+    // System.out.println(smallestnum);
+    // System.out.println(Arrays.toString(largestnum));
+
+    // int nums[] = { 1, 2, 3, 4, 5, 1, 5, 5, 2, 3 };
+    // Arrays.sort(nums);
+
+    // ArrayList<Integer> nums3 = new ArrayList<>(); // ✅ Use ArrayList for dynamic storage
+
+    // nums3.add(nums[0]); // ✅ Add the first element
+
+    // for (int i = 1; i < nums.length; i++) {
+    //   if (nums[i] != nums[i - 1]) {
+    //     nums3.add(nums[i]);
+    //   }
+    // }
+    // System.out.println(nums3);
+     
+       Student S1= new Student ();
+         S1.rollenum=52;
+         S1.name="Ravikumar";
+         S1.marks=52;
+         Student S2= new Student ();
+         S2.rollenum=11;
+         S2.name="Tharun";
+         S2.marks=52;
+
+         Student S3= new Student ();
+         S3.rollenum=49;
+         S3.name="Sai";
+         S3.marks=52;
+
+          Student students[]= new Student[3];
+
+        students[0]=S1;
+        students[1]=S2;
+        students[2]=S3;
+
+
+ 
+           for( int i=0;i<students.length;i++){
+            System.out.println(students[i].name+":"+students[i].rollenum);
+           }
+
+
 
   }
 

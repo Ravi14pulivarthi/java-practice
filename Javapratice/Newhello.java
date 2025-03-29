@@ -1,12 +1,13 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
- class Student{
-  int rollenum;
-  String name;
-  int marks;
+//  class Student{
+//   int rollenum;
+//   String name;
+//   int marks;
   
- }
+//  }
+ 
 public class Newhello {
 
   public static void main(String a[]) {
@@ -191,9 +192,25 @@ public class Newhello {
         //  String  name="Ravi";
         //  System.out.println(name);
 
-         String name=new String("Ravikumar");
-          System.out.println(name+"Hello");
- 
+        //  String name=new String("Ravikumar");
+        //   System.out.println(name+"Hello");
+        //    System.out.println(name.concat("Hebuddy"));
+
+        //  String [] names={"arvi","kumar","ok"};
+        //  System.out.println(Arrays.toString(names));
+
+        //  StringBuffer name= new StringBuffer("Rvai");
+        //   name.append("Kumar");
+        //   System.out.println(name);
+
+
+        //    name.deleteCharAt(2);
+            
+        //    System.out.println(name);
+
+         
+
+
       }
 
 }

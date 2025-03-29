@@ -125,34 +125,68 @@ public class Newhello {
     // }
     // System.out.println(nums3);
      
-       Student S1= new Student ();
-         S1.rollenum=52;
-         S1.name="Ravikumar";
-         S1.marks=52;
-         Student S2= new Student ();
-         S2.rollenum=11;
-         S2.name="Tharun";
-         S2.marks=52;
+      //  Student S1= new Student ();
+      //    S1.rollenum=52;
+      //    S1.name="Ravikumar";
+      //    S1.marks=52;
+      //    Student S2= new Student ();
+      //    S2.rollenum=11;
+      //    S2.name="Tharun";
+      //    S2.marks=52;
 
-         Student S3= new Student ();
-         S3.rollenum=49;
-         S3.name="Sai";
-         S3.marks=52;
+      //    Student S3= new Student ();
+      //    S3.rollenum=49;
+      //    S3.name="Sai";
+      //    S3.marks=52;
 
-          Student students[]= new Student[3];
+      //     Student students[]= new Student[3];
 
-        students[0]=S1;
-        students[1]=S2;
-        students[2]=S3;
+      //   students[0]=S1;
+      //   students[1]=S2;
+      //   students[2]=S3;
 
 
  
-           for( int i=0;i<students.length;i++){
-            System.out.println(students[i].name+":"+students[i].rollenum);
-           }
+          //  for( int i=0;i<students.length;i++){
+          //   System.out.println(students[i].name+":"+students[i].rollenum);
+          //  }
+
+          //  for(Student stud: students){
+          //   System.out.println(stud.name+":"+stud.rollenum);
+          //  }
+
+
+        // int  array[]=new int [4];
+
+        //  array[0]=1;
+        //  array[1]=2;
+        //  array[2]=3;
+
+          // System.out.println(Arrays.toString(array));
+          //  for(  int i=0;i<array.length;i++){
+          //    System.out.println(array[i]);
+          //  }
 
 
 
-  }
+          //  for( int n : array){
+          //   System.out.println(n);
+          //  }
+
+          //  String name="Ravi";
+          //  System.out.println(name);
+        // Object [] arraystring={"Rvaikumar",1,3,'a',123};
+
+
+        //  System.out.println(Arrays.toString(arraystring));
+ 
+ 
+
+        //  int array[]={1,2,3,};
+        //  System.out.println(array);
+         String names []={"ravi","kumar","ravikumar","pulivarthi"};
+         System.out.println(Arrays.toString(names));
+ 
+      }
 
 }
